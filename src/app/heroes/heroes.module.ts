@@ -11,6 +11,7 @@ import { ListadoComponent } from './listado/listado.component';
          ListadoComponent
      ],
      exports: [
+         HeroeComponent,
          ListadoComponent //<==todo lo que quiero que sea visible para toda la aplicación
      ],
      imports: [
